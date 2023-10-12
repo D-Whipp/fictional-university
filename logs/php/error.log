@@ -6,3 +6,55 @@ Stack trace:
 [09-Oct-2023 22:50:09 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 4
 [09-Oct-2023 22:50:09 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 4
 [09-Oct-2023 23:07:39 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\index.php on line 5
+[11-Oct-2023 00:40:10 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 2 and at least 2 expected in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php(2): add_action()
+#1 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-settings.php(600): include('C:\\Users\\dwhip\\...')
+#2 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-config.php(103): require_once('C:\\Users\\dwhip\\...')
+#3 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-load.php(50): require_once('C:\\Users\\dwhip\\...')
+#4 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\dwhip\\...')
+#5 {main}
+  thrown in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\plugin.php on line 441
+[11-Oct-2023 00:44:12 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "(" in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 5
+[11-Oct-2023 00:44:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[11-Oct-2023 00:44:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[11-Oct-2023 00:45:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylessheet_uri() in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:4
+Stack trace:
+#0 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(310): university_files('')
+#1 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\header.php(4): wp_head()
+#9 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\template.php(785): require_once('C:\\Users\\dwhip\\...')
+#10 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\template.php(720): load_template('C:\\Users\\dwhip\\...', true, Array)
+#11 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php(3): get_header()
+#13 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\dwhip\\...')
+#14 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\dwhip\\...')
+#15 C:\Users\dwhip\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\dwhip\\...')
+#16 {main}
+  thrown in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 4
+[11-Oct-2023 00:46:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_stylessheet_uri() in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php:4
+Stack trace:
+#0 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(310): university_files('')
+#1 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\script-loader.php(2225): do_action('wp_enqueue_scri...')
+#4 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(310): wp_enqueue_scripts('')
+#5 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\general-template.php(3053): do_action('wp_head')
+#8 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\header.php(4): wp_head()
+#9 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\template.php(785): require_once('C:\\Users\\dwhip\\...')
+#10 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\template.php(720): load_template('C:\\Users\\dwhip\\...', true, Array)
+#11 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\page.php(3): get_header()
+#13 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\dwhip\\...')
+#14 C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-blog-header.php(19): require_once('C:\\Users\\dwhip\\...')
+#15 C:\Users\dwhip\Local Sites\fictional-university\app\public\index.php(17): require('C:\\Users\\dwhip\\...')
+#16 {main}
+  thrown in C:\Users\dwhip\Local Sites\fictional-university\app\public\wp-content\themes\fictional-university-theme\functions.php on line 4
